@@ -1,0 +1,186 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{ 
+    background: #d8d8d8 url(../images/bg.png) repeat;
+    font-family: "Montserrat", arial, helvetica, sans-serif;
+}
+.div { 
+    background-color: red;
+    height: 2px;
+}
+
+.header { 
+    position: fixed;
+    height: 52px;
+    background-color: rgb(248, 248, 248);
+    width: 100%;
+    position: relative;
+}
+
+.logo{ 
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 43%;
+    margin-top: -77px;
+    cursor: pointer;
+}
+
+.fr {
+    float: right;
+}
+
+.header .langWrapper {
+    position: absolute;
+    top: 19px;
+    right: 15px;
+}
+
+.lang{ 
+    width: 223px;
+    height: 26px;
+    padding-left: 32px;
+    border: 1px solid #e3e3e0;
+    border-radius: 3px;
+    line-height: 26px;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+
+.header .icon-earth {
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../images/earth.png) no-repeat 0 0;
+    color: #000;
+    
+}
+
+.container{ 
+    width: 760px;
+    min-height: 450px;
+    margin: 50px auto 45px;
+    padding-bottom: 100px;
+    border: 1px solid #e3e1dc;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.input{ 
+    width: 760px;
+    height: 664px;
+    background-color: #fff;
+    margin: 80px 0 50px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+
+.p{ 
+    margin: 20px;
+}
+
+.login{ 
+    margin-top: 50px;
+
+}
+
+.login button{
+    width: 53%;
+    height: 35px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #e8171f;
+    color:#ffffff;
+    font-style: italic;
+    cursor: pointer;
+
+}
+
+
+
+#taikhoan, #matkhau, #dn, #tt{ 
+    width:400px;
+    height: 40px;
+    margin: 24px 12px 5px;
+    background-color: rgb(213, 255, 251);
+    box-shadow: 0 0 3px #dad8d3;
+    border: none;
+    padding: 20px;
+    border-radius: 3px;
+}
+
+#dn, #tt{ 
+    text-align: center;
+}
+
+/* #dn{ 
+    background-color: #e8171f;
+    color:#ffffff;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 800;
+}
+
+#tt{ 
+    background-color: #000;
+    color: #fff;
+    font-size: 17px;
+    font-style: italic;
+} */
+
+.or{ 
+    padding-top: 24px;
+    opacity: 0.8;
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.button-facebook {
+    margin-bottom: 20px;
+}
+
+
+.button-face {
+    color: #fff;
+    background-color: #3b5998;
+    border-color: rgba(0,0,0,0.2);
+
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+    outline: none !important;
+
+    display: inline-block;
+    
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 50px;
+    font-size: 18px;
+    line-height: 1.42857;
+    border-radius: 4px;
+   
+    user-select: none;
+}
+
+
+
+
+
